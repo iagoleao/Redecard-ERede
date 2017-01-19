@@ -1,0 +1,15 @@
+{
+	"name":"iagoleao/erede",
+	"require": {
+		"php": ">=5.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~5.0"
+	},
+	"autoload" : {
+		"psr-0": {
+			"Erede": "src"
+		}
+	}
+
+}
