@@ -1,7 +1,7 @@
 <?php
 
-namespace Erede\Requests;
-use Erede\Base;
+namespace ERede\Requests;
+use ERede\Base;
 
 /**
  * Class CaptureRequest

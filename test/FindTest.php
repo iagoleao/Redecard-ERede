@@ -5,15 +5,15 @@ error_reporting(E_ALL);
 
 include __DIR__.'/../vendor/autoload.php';
 
-use Erede\Acquirer;
-use Erede\Requests\FindRequest;
-use Erede\Enums\EnvironmentType;
+use ERede\Acquirer;
+use ERede\Requests\FindRequest;
+use ERede\Enums\EnvironmentType;
 
 $reqFind = new FindRequest();
 $reqFind->setTid("1851435097");
 $reqFind->setReference("126AA1");
 
-$c = new Acquirer('123','123', EnvironmentType::Develop);
+$c = new Acquirer('123','123', EnvironmentType::Homolog);
 
 $v = $c->find($reqFind);
 echo 'status: '.$v->getMessage();

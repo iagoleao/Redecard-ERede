@@ -5,9 +5,9 @@ error_reporting(E_ALL);
 
 include __DIR__.'/../vendor/autoload.php';
 
-use Erede\Acquirer;
-use Erede\Requests\CancelRequest;
-use Erede\Enums\EnvironmentType;
+use ERede\Acquirer;
+use ERede\Requests\CancelRequest;
+use ERede\Enums\EnvironmentType;
 
 $reqCancel = new CancelRequest();
 $reqCancel->setTid("1851435097");

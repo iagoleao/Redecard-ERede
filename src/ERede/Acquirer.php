@@ -1,17 +1,17 @@
 <?php
 
-namespace Erede;
+namespace ERede;
 
-use Erede\Enums\EnvironmentType;
-use Erede\Enums\TransactionStatus;
-use Erede\Requests\AuthorizedCreditRequest;
-use Erede\Responses\AuthorizedCreditResponse;
-use Erede\Requests\CancelRequest;
-use Erede\Responses\CancelResponse;
-use Erede\Requests\CaptureRequest;
-use Erede\Responses\CaptureResponse;
-use Erede\Requests\FindRequest;
-use Erede\Responses\FindResponse;
+use ERede\Enums\EnvironmentType;
+use ERede\Enums\TransactionStatus;
+use ERede\Requests\AuthorizedCreditRequest;
+use ERede\Responses\AuthorizedCreditResponse;
+use ERede\Requests\CancelRequest;
+use ERede\Responses\CancelResponse;
+use ERede\Requests\CaptureRequest;
+use ERede\Responses\CaptureResponse;
+use ERede\Requests\FindRequest;
+use ERede\Responses\FindResponse;
 
 /**
  * Class Acquirer

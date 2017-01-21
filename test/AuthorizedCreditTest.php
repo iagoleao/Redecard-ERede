@@ -3,9 +3,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-use Erede\Acquirer;
-use Erede\Requests\AuthorizedCreditRequest;
-use Erede\Enums\EnvironmentType;
+use ERede\Acquirer;
+use ERede\Requests\AuthorizedCreditRequest;
+use ERede\Enums\EnvironmentType;
 
 $reqCredit = new AuthorizedCreditRequest();
 $reqCredit->setAmount(1.00);

@@ -1,7 +1,7 @@
 <?php
 
-namespace Erede\Responses;
-use Erede\Base;
+namespace ERede\Responses;
+use ERede\Base;
 
 /**
  * Class CaptureResponse

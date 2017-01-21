@@ -1,8 +1,8 @@
 <?php
 
-namespace Erede\Requests;
-use Erede\Base;
-use Erede\Enums\TransactionType;
+namespace ERede\Requests;
+use ERede\Base;
+use ERede\Enums\TransactionType;
 
 /**
  * Class AuthorizedCreditRequest

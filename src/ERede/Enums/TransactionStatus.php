@@ -1,6 +1,6 @@
 <?php
 
-namespace Erede\Enums;
+namespace ERede\Enums;
 /**
  * Class TransactionStatus
  *

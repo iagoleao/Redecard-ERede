@@ -1,5 +1,5 @@
 {
-	"name":"iagoleao/redecard-erede",
+	"name":"iagoleao/redecard-ERede",
 	"require": {
 		"php": ">=5.0"
 	},
@@ -8,7 +8,7 @@
 	},
 	"autoload" : {
 		"psr-0": {
-			"Erede": "src"
+			"ERede": "src"
 		}
 	}
 
